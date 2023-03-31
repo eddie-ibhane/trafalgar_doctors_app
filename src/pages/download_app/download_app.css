@@ -1,0 +1,50 @@
+.download_app {
+    margin: 180px 0;
+    display: flex;
+}
+.image-wrapper img{
+    width: 560px;
+}
+.download-text-wrapper {
+    padding: 0 80px 0 0;
+}
+.download_app-cta-btn {
+    margin: 34px 0 0 0;
+}
+
+@media screen and (max-width: 1080px) {
+    .download-image-wrapper img {
+        width: 460px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .download_app {
+        flex-direction: column;
+        margin: 100px 0;
+    }
+    .download-image-wrapper {
+        margin-top: 80px;
+    }
+    /* .text-wrapper {
+        margin: 64px 0 0 0;
+        padding: 0;
+    } */
+}
+
+@media screen and (max-width: 600px) {
+    .download-image-wrapper img {
+        width: 100%;
+    }
+    .download_app .download-text-wrapper h3 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .download_app .download-text-wrapper p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .download-text-wrapper {
+        padding: 0 0px 0 0;
+    }
+}

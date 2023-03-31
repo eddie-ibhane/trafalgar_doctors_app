@@ -1,0 +1,24 @@
+.articles-section {
+    display: block;
+    margin: 64px auto;
+    /* background: #E5E5E5; */
+}
+.articles-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.articles-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.articles-cta-btn {
+    text-align: center;
+}
+
+@media screen and (max-width:992px) {
+    .articles-cta-btn {
+        text-align: start;
+    }
+}

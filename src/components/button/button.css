@@ -1,0 +1,25 @@
+.btn {
+    background: #fff;
+    color: #458FF6;
+    border: 1px solid #458FF6;
+    padding: 14px 36px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    outline: none;
+    width: 200px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #458FF6;
+    color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .btn {
+        padding: 12px 30px;
+        font-size: 14px;
+        width: unset;
+
+    }
+}

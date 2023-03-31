@@ -1,0 +1,45 @@
+.healthcare_provider {
+    margin: 180px 0;
+    display: flex;
+}
+.image-wrapper img{
+    width: 560px;
+}
+.text-wrapper {
+    margin: 32px 0 0 64px ;
+    padding: 0 44px;
+}
+.healthcare_provider-cta-btn {
+    margin: 34px 0 0 0;
+}
+
+@media screen and (max-width: 1080px) {
+    .image-wrapper img {
+        width: 460px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .healthcare_provider {
+        flex-direction: column;
+        margin: 100px 0;
+    }
+    .text-wrapper {
+        margin: 64px 0 0 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .image-wrapper img {
+        width: 100%;
+    }
+    .healthcare_provider .text-wrapper h3 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .healthcare_provider .text-wrapper p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
